@@ -1,0 +1,30 @@
+{
+    "cmake.generator": "MinGW Makefiles",
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "C:\\Users\\ktkuru\\Documents\\Pico SDK v1.5.1\\pico-sdk"
+    },
+    "files.associations": {
+        "pico.h": "c",
+        "gpio.h": "c",
+        "stdlib.h": "c",
+        "types.h": "c",
+        "pwm.h": "c",
+        "dreq.h": "c",
+        "sync.h": "c",
+        "multicore.h": "c",
+        "i2c.h": "c",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "i2clib.h": "c",
+        "oled_data.h": "c",
+        "oled.h": "c",
+        "usart.h": "c",
+        "core_riscv.h": "c",
+        "inv_mpu.h": "c",
+        "mpu6050.h": "c",
+        "inv_mpu_dmp_motion_driver.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "commentTranslate.hover.enabled": true
+}
