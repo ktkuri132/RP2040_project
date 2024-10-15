@@ -39,15 +39,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_rnglists 00001abb  00000000  00000000  0004e818  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   0001ecf6  00000000  00000000  000502d3  2**0
+ 18 .debug_line   0001ed03  00000000  00000000  000502d3  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    00008bc9  00000000  00000000  0006efc9  2**0
+ 19 .debug_str    00008bc9  00000000  00000000  0006efd6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_frame  00004d60  00000000  00000000  00077b94  2**2
+ 20 .debug_frame  00004d60  00000000  00000000  00077ba0  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_loclists 000165e5  00000000  00000000  0007c8f4  2**0
+ 21 .debug_loclists 000165e5  00000000  00000000  0007c900  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 000003bd  00000000  00000000  00092ed9  2**0
+ 22 .debug_line_str 000003bd  00000000  00000000  00092ee5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/i2c.elf:     file format elf32-littlearm

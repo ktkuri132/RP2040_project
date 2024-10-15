@@ -1497,12 +1497,12 @@
 			"id" : "ELF2UF2Build::@92e5b0368c7a33bc3408"
 		},
 		{
-			"backtrace" : 3,
-			"id" : "oled::@61b8bfb86b6efdd6f6b0"
-		},
-		{
 			"backtrace" : 4,
 			"id" : "mpu6050::@0547f5f0dab472cbbbbe"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "oled::@61b8bfb86b6efdd6f6b0"
 		}
 	],
 	"id" : "i2c::@941240210799868ff678",
