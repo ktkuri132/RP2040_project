@@ -9,7 +9,7 @@ include(pico_sdk_import.cmake)
 include(pico_extras_import_optional.cmake)
 include(example_auto_set_url.cmake)
 
-#项目名称
+#项目名称,语言
 project(RP2040 C CXX ASM)
 
 #设置本项目文件总配置路径
@@ -38,6 +38,7 @@ endif()
 
 #设置项目路径(被添加的文件夹中必须要有CMakeLists.txt文件)
 add_subdirectory(test_1/led)
-add_subdirectory(test_1/pwmoutput)
+add_subdirectory(test_1/pwm)
 add_subdirectory(test_1/multicore)
 add_subdirectory(test_1/i2c)
+add_subdirectory(test_1/usart)

@@ -171,9 +171,9 @@ C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/led/CMakeFiles/led.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/led/CMakeFiles/ELF2UF2Build.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/led/CMakeFiles/edit_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/led/CMakeFiles/rebuild_cache.dir
-C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwmoutput/CMakeFiles/pj_pwm.dir
-C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwmoutput/CMakeFiles/edit_cache.dir
-C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwmoutput/CMakeFiles/rebuild_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwm/CMakeFiles/pwm.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwm/CMakeFiles/edit_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwm/CMakeFiles/rebuild_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/multicore/CMakeFiles/multicore.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/multicore/CMakeFiles/edit_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/multicore/CMakeFiles/rebuild_cache.dir
@@ -186,3 +186,6 @@ C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/OLED/CMakeFiles/rebuild_
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/CMakeFiles/edit_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/CMakeFiles/rebuild_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/CMakeFiles/usart.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/CMakeFiles/edit_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/CMakeFiles/rebuild_cache.dir

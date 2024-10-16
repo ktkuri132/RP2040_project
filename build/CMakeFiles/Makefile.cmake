@@ -48,7 +48,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/OLED/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/led/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/multicore/CMakeLists.txt"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/pwmoutput/CMakeLists.txt"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/pwm/CMakeLists.txt"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/usart/CMakeLists.txt"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/CMakeLists.txt"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/cmake/Platform/PICO.cmake"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -257,11 +258,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test_1/led/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch-info.txt"
   "test_1/led/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "test_1/led/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test_1/pwmoutput/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_1/pwm/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/multicore/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/i2c/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/i2c/OLED/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/i2c/MPU6050/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_1/usart/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -275,9 +277,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "test_1/led/CMakeFiles/led.dir/DependInfo.cmake"
   "test_1/led/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
-  "test_1/pwmoutput/CMakeFiles/pj_pwm.dir/DependInfo.cmake"
+  "test_1/pwm/CMakeFiles/pwm.dir/DependInfo.cmake"
   "test_1/multicore/CMakeFiles/multicore.dir/DependInfo.cmake"
   "test_1/i2c/CMakeFiles/i2c.dir/DependInfo.cmake"
   "test_1/i2c/OLED/CMakeFiles/oled.dir/DependInfo.cmake"
   "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/DependInfo.cmake"
+  "test_1/usart/CMakeFiles/usart.dir/DependInfo.cmake"
   )

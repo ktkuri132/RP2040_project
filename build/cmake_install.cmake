@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_examples")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/RP2040")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -41,9 +41,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/pico-sdk/cmake_install.cmake")
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/led/cmake_install.cmake")
-  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwmoutput/cmake_install.cmake")
+  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/pwm/cmake_install.cmake")
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/multicore/cmake_install.cmake")
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/cmake_install.cmake")
+  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/cmake_install.cmake")
 
 endif()
 

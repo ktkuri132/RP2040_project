@@ -707,7 +707,7 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject/cfgcmd.txt.in"
 		},
 		{
-			"path" : "test_1/pwmoutput/CMakeLists.txt"
+			"path" : "test_1/pwm/CMakeLists.txt"
 		},
 		{
 			"isExternal" : true,
@@ -747,6 +747,18 @@
 		},
 		{
 			"path" : "test_1/i2c/MPU6050/CMakeLists.txt"
+		},
+		{
+			"path" : "test_1/usart/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/tools/FindELF2UF2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.30/Modules/ExternalProject.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

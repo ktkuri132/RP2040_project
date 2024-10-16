@@ -233,17 +233,17 @@ ELF2UF2Build/fast:
 .PHONY : ELF2UF2Build/fast
 
 #=============================================================================
-# Target rules for targets named pj_pwm
+# Target rules for targets named pwm
 
 # Build rule for target.
-pj_pwm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pj_pwm
-.PHONY : pj_pwm
+pwm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pwm
+.PHONY : pwm
 
 # fast build rule for target.
-pj_pwm/fast:
-	$(MAKE) $(MAKESILENT) -f test_1\pwmoutput\CMakeFiles\pj_pwm.dir\build.make test_1/pwmoutput/CMakeFiles/pj_pwm.dir/build
-.PHONY : pj_pwm/fast
+pwm/fast:
+	$(MAKE) $(MAKESILENT) -f test_1\pwm\CMakeFiles\pwm.dir\build.make test_1/pwm/CMakeFiles/pwm.dir/build
+.PHONY : pwm/fast
 
 #=============================================================================
 # Target rules for targets named multicore
@@ -297,6 +297,19 @@ mpu6050/fast:
 	$(MAKE) $(MAKESILENT) -f test_1\i2c\MPU6050\CMakeFiles\mpu6050.dir\build.make test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/build
 .PHONY : mpu6050/fast
 
+#=============================================================================
+# Target rules for targets named usart
+
+# Build rule for target.
+usart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 usart
+.PHONY : usart
+
+# fast build rule for target.
+usart/fast:
+	$(MAKE) $(MAKESILENT) -f test_1\usart\CMakeFiles\usart.dir\build.make test_1/usart/CMakeFiles/usart.dir/build
+.PHONY : usart/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -318,7 +331,8 @@ help:
 	@echo ... mpu6050
 	@echo ... multicore
 	@echo ... oled
-	@echo ... pj_pwm
+	@echo ... pwm
+	@echo ... usart
 .PHONY : help
 
 

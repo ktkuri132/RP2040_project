@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "test_1/pwmoutput",
-		"source" : "test_1/pwmoutput"
+		"build" : "test_1/pwm",
+		"source" : "test_1/pwm"
 	}
 }

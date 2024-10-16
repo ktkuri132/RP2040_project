@@ -12,7 +12,8 @@
 						81,
 						82,
 						83,
-						84
+						84,
+						87
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -1035,15 +1036,15 @@
 					]
 				},
 				{
-					"build" : "test_1/pwmoutput",
-					"jsonFile" : "directory-test_1.pwmoutput-Debug-6d08e9de4e253fe21166.json",
+					"build" : "test_1/pwm",
+					"jsonFile" : "directory-test_1.pwm-Debug-ec21323124523a67ec80.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "test_1/pwmoutput",
+					"source" : "test_1/pwm",
 					"targetIndexes" : 
 					[
 						11
@@ -1113,6 +1114,21 @@
 					[
 						8
 					]
+				},
+				{
+					"build" : "test_1/usart",
+					"jsonFile" : "directory-test_1.usart-Debug-204cf52f90b462ae1009.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test_1/usart",
+					"targetIndexes" : 
+					[
+						14
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1131,7 +1147,8 @@
 						83,
 						84,
 						85,
-						86
+						86,
+						87
 					],
 					"name" : "RP2040",
 					"targetIndexes" : 
@@ -1142,7 +1159,8 @@
 						8,
 						9,
 						10,
-						11
+						11,
+						14
 					]
 				},
 				{
@@ -1290,7 +1308,7 @@
 				{
 					"directoryIndex" : 84,
 					"id" : "i2c::@941240210799868ff678",
-					"jsonFile" : "target-i2c-Debug-10d34fda269f5c6dd6d5.json",
+					"jsonFile" : "target-i2c-Debug-c8e7d5d13df268c167ca.json",
 					"name" : "i2c",
 					"projectIndex" : 0
 				},
@@ -1324,9 +1342,9 @@
 				},
 				{
 					"directoryIndex" : 82,
-					"id" : "pj_pwm::@c4eab934a92299d100bf",
-					"jsonFile" : "target-pj_pwm-Debug-8becef9383bebdc5ea90.json",
-					"name" : "pj_pwm",
+					"id" : "pwm::@3e8ffe7f36c0c96a8da4",
+					"jsonFile" : "target-pwm-Debug-9fbc1261271dd617cb0b.json",
+					"name" : "pwm",
 					"projectIndex" : 0
 				},
 				{
@@ -1342,6 +1360,13 @@
 					"jsonFile" : "target-tinyusb_pico_pio_usb_usb_tx_pio_h-Debug-2c5f3def8fe087829e45.json",
 					"name" : "tinyusb_pico_pio_usb_usb_tx_pio_h",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "usart::@a0b4f7b9190a16299242",
+					"jsonFile" : "target-usart-Debug-157d74f9d0fa01059c58.json",
+					"name" : "usart",
+					"projectIndex" : 0
 				}
 			]
 		}
