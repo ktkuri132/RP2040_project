@@ -26,5 +26,5 @@
         "inv_mpu_dmp_motion_driver.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled",
-    "commentTranslate.hover.enabled": false
+    "commentTranslate.hover.enabled": true
 }
