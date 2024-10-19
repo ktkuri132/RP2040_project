@@ -281,7 +281,7 @@ oled: cmake_check_build_system
 
 # fast build rule for target.
 oled/fast:
-	$(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/build
+	$(MAKE) $(MAKESILENT) -f test_1\OLED\CMakeFiles\oled.dir\build.make test_1/OLED/CMakeFiles/oled.dir/build
 .PHONY : oled/fast
 
 #=============================================================================
@@ -294,7 +294,7 @@ mpu6050: cmake_check_build_system
 
 # fast build rule for target.
 mpu6050/fast:
-	$(MAKE) $(MAKESILENT) -f test_1\i2c\MPU6050\CMakeFiles\mpu6050.dir\build.make test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/build
+	$(MAKE) $(MAKESILENT) -f test_1\MPU6050\CMakeFiles\mpu6050.dir\build.make test_1/MPU6050/CMakeFiles/mpu6050.dir/build
 .PHONY : mpu6050/fast
 
 #=============================================================================

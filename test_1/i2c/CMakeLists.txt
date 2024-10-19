@@ -13,8 +13,8 @@ pico_enable_stdio_uart(i2c 0)
 # 添加外部库的方法
 
 # 1.添加子目录
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/../OLED oled)
-add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/../MPU6050 mpu6050)
+#add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/../OLED oled)
+#add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/../MPU6050 mpu6050)
 
 # 2.链接子目录生成的库
 target_link_libraries(i2c oled)

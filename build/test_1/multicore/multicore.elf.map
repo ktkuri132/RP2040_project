@@ -1582,9 +1582,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .bss.lockout_victim_initialized
                 0x00000000        0x2 CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
- .text          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccS0c8U1.o
- .data          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccS0c8U1.o
- .bss           0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccS0c8U1.o
+ .text          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccEdGvWI.o
+ .data          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccEdGvWI.o
+ .bss           0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccEdGvWI.o
  .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
@@ -1903,7 +1903,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ktkuru\AppData\Local\Temp\ccS0c8U1.o
+ .boot2         0x10000000      0x100 C:\Users\ktkuru\AppData\Local\Temp\ccEdGvWI.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3462,7 +3462,7 @@ LOAD CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk
 LOAD CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
-LOAD C:\Users\ktkuru\AppData\Local\Temp\ccS0c8U1.o
+LOAD C:\Users\ktkuru\AppData\Local\Temp\ccEdGvWI.o
 LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3581,7 +3581,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007ce       0x2c CMakeFiles/multicore.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
  .ARM.attributes
-                0x000007fa       0x22 C:\Users\ktkuru\AppData\Local\Temp\ccS0c8U1.o
+                0x000007fa       0x22 C:\Users\ktkuru\AppData\Local\Temp\ccEdGvWI.o
  .ARM.attributes
                 0x0000081c       0x1e C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

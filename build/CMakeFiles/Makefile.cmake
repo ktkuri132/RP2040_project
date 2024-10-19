@@ -261,8 +261,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test_1/pwm/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/multicore/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/i2c/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test_1/i2c/oled/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test_1/i2c/MPU6050/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_1/OLED/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_1/MPU6050/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/usart/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -280,7 +280,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "test_1/pwm/CMakeFiles/pwm.dir/DependInfo.cmake"
   "test_1/multicore/CMakeFiles/multicore.dir/DependInfo.cmake"
   "test_1/i2c/CMakeFiles/i2c.dir/DependInfo.cmake"
-  "test_1/i2c/oled/CMakeFiles/oled.dir/DependInfo.cmake"
-  "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/DependInfo.cmake"
+  "test_1/OLED/CMakeFiles/oled.dir/DependInfo.cmake"
+  "test_1/MPU6050/CMakeFiles/mpu6050.dir/DependInfo.cmake"
   "test_1/usart/CMakeFiles/usart.dir/DependInfo.cmake"
   )
