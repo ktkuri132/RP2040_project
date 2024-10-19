@@ -1051,6 +1051,20 @@ test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_i2c\i2c.c" -o CMakeFiles\i2c.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
 
+test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: test_1/i2c/CMakeFiles/i2c.dir/flags.make
+test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c
+test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: test_1/i2c/CMakeFiles/i2c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles\i2c.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\i2c.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c"
+
+test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c" > CMakeFiles\i2c.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+
+test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c" -o CMakeFiles\i2c.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+
 # Object files for target i2c
 i2c_OBJECTS = \
 "CMakeFiles/i2c.dir/i2clib.c.obj" \
@@ -1123,7 +1137,8 @@ i2c_OBJECTS = \
 "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 
 # External object files for target i2c
 i2c_EXTERNAL_OBJECTS =
@@ -1199,9 +1214,10 @@ test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pic
 test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/build.make
 test_1/i2c/libi2c.a: test_1/i2c/CMakeFiles/i2c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX static library libi2c.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX static library libi2c.a"
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c && $(CMAKE_COMMAND) -P CMakeFiles\i2c.dir\cmake_clean_target.cmake
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\i2c.dir\link.txt --verbose=$(VERBOSE)
 

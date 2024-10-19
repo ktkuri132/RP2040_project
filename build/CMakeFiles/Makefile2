@@ -70,6 +70,8 @@ all: test_1/i2c/all
 all: test_1/OLED/all
 all: test_1/MPU6050/all
 all: test_1/usart/all
+all: test_1/spi/all
+all: test_1/USER/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -81,6 +83,8 @@ preinstall: test_1/i2c/preinstall
 preinstall: test_1/OLED/preinstall
 preinstall: test_1/MPU6050/preinstall
 preinstall: test_1/usart/preinstall
+preinstall: test_1/spi/preinstall
+preinstall: test_1/USER/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -92,6 +96,8 @@ clean: test_1/i2c/clean
 clean: test_1/OLED/clean
 clean: test_1/MPU6050/clean
 clean: test_1/usart/clean
+clean: test_1/spi/clean
+clean: test_1/USER/clean
 .PHONY : clean
 
 #=============================================================================
@@ -1546,6 +1552,21 @@ test_1/OLED/clean: test_1/OLED/CMakeFiles/oled.dir/clean
 .PHONY : test_1/OLED/clean
 
 #=============================================================================
+# Directory level rules for directory test_1/USER
+
+# Recursive "all" directory target.
+test_1/USER/all: test_1/USER/CMakeFiles/user.dir/all
+.PHONY : test_1/USER/all
+
+# Recursive "preinstall" directory target.
+test_1/USER/preinstall:
+.PHONY : test_1/USER/preinstall
+
+# Recursive "clean" directory target.
+test_1/USER/clean: test_1/USER/CMakeFiles/user.dir/clean
+.PHONY : test_1/USER/clean
+
+#=============================================================================
 # Directory level rules for directory test_1/i2c
 
 # Recursive "all" directory target.
@@ -1608,6 +1629,21 @@ test_1/pwm/clean: test_1/pwm/CMakeFiles/pwm.dir/clean
 .PHONY : test_1/pwm/clean
 
 #=============================================================================
+# Directory level rules for directory test_1/spi
+
+# Recursive "all" directory target.
+test_1/spi/all: test_1/spi/CMakeFiles/spi.dir/all
+.PHONY : test_1/spi/all
+
+# Recursive "preinstall" directory target.
+test_1/spi/preinstall:
+.PHONY : test_1/spi/preinstall
+
+# Recursive "clean" directory target.
+test_1/spi/clean: test_1/spi/CMakeFiles/spi.dir/clean
+.PHONY : test_1/spi/clean
+
+#=============================================================================
 # Directory level rules for directory test_1/usart
 
 # Recursive "all" directory target.
@@ -1629,12 +1665,12 @@ test_1/usart/clean: test_1/usart/CMakeFiles/usart.dir/clean
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=4 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num= "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
@@ -1660,7 +1696,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
@@ -1681,12 +1717,12 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=5 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=4 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
@@ -1733,12 +1769,12 @@ pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/clean:
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/all: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\tinyusb\CMakeFiles\tinyusb_pico_pio_usb_usb_tx_pio_h.dir\build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\tinyusb\CMakeFiles\tinyusb_pico_pio_usb_usb_tx_pio_h.dir\build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num= "Built target tinyusb_pico_pio_usb_usb_tx_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=81 "Built target tinyusb_pico_pio_usb_usb_tx_pio_h"
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/rule
@@ -1759,12 +1795,12 @@ pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/all: pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\tinyusb\CMakeFiles\tinyusb_pico_pio_usb_usb_rx_pio_h.dir\build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\tinyusb\CMakeFiles\tinyusb_pico_pio_usb_usb_rx_pio_h.dir\build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=88 "Built target tinyusb_pico_pio_usb_usb_rx_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num= "Built target tinyusb_pico_pio_usb_usb_rx_pio_h"
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/rule
@@ -1812,12 +1848,12 @@ test_1/led/CMakeFiles/led.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFile
 test_1/led/CMakeFiles/led.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\led\CMakeFiles\led.dir\build.make test_1/led/CMakeFiles/led.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\led\CMakeFiles\led.dir\build.make test_1/led/CMakeFiles/led.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34 "Built target led"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27 "Built target led"
 .PHONY : test_1/led/CMakeFiles/led.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/led/CMakeFiles/led.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/led/CMakeFiles/led.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/led/CMakeFiles/led.dir/rule
@@ -1865,12 +1901,12 @@ test_1/pwm/CMakeFiles/pwm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFile
 test_1/pwm/CMakeFiles/pwm.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\pwm\CMakeFiles\pwm.dir\build.make test_1/pwm/CMakeFiles/pwm.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\pwm\CMakeFiles\pwm.dir\build.make test_1/pwm/CMakeFiles/pwm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=77,78,79,80,81,82,83,84,85,86,87 "Built target pwm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=62,63,64,65,66,67,68,69,70,71 "Built target pwm"
 .PHONY : test_1/pwm/CMakeFiles/pwm.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/pwm/CMakeFiles/pwm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/pwm/CMakeFiles/pwm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/pwm/CMakeFiles/pwm.dir/rule
@@ -1892,12 +1928,12 @@ test_1/multicore/CMakeFiles/multicore.dir/all: pico-sdk/src/rp2_common/boot_stag
 test_1/multicore/CMakeFiles/multicore.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\multicore\CMakeFiles\multicore.dir\build.make test_1/multicore/CMakeFiles/multicore.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\multicore\CMakeFiles\multicore.dir\build.make test_1/multicore/CMakeFiles/multicore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target multicore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47,48,49,50,51 "Built target multicore"
 .PHONY : test_1/multicore/CMakeFiles/multicore.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/multicore/CMakeFiles/multicore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/multicore/CMakeFiles/multicore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/multicore/CMakeFiles/multicore.dir/rule
@@ -1916,16 +1952,16 @@ test_1/multicore/CMakeFiles/multicore.dir/clean:
 
 # All Build rule for target.
 test_1/i2c/CMakeFiles/i2c.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-test_1/i2c/CMakeFiles/i2c.dir/all: test_1/MPU6050/CMakeFiles/mpu6050.dir/all
 test_1/i2c/CMakeFiles/i2c.dir/all: test_1/OLED/CMakeFiles/oled.dir/all
+test_1/i2c/CMakeFiles/i2c.dir/all: test_1/MPU6050/CMakeFiles/mpu6050.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target i2c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target i2c"
 .PHONY : test_1/i2c/CMakeFiles/i2c.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/i2c/CMakeFiles/i2c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/CMakeFiles/i2c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/i2c/CMakeFiles/i2c.dir/rule
@@ -1946,12 +1982,12 @@ test_1/i2c/CMakeFiles/i2c.dir/clean:
 test_1/OLED/CMakeFiles/oled.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\OLED\CMakeFiles\oled.dir\build.make test_1/OLED/CMakeFiles/oled.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\OLED\CMakeFiles\oled.dir\build.make test_1/OLED/CMakeFiles/oled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74,75,76 "Built target oled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61 "Built target oled"
 .PHONY : test_1/OLED/CMakeFiles/oled.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/OLED/CMakeFiles/oled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/OLED/CMakeFiles/oled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/OLED/CMakeFiles/oled.dir/rule
@@ -1972,12 +2008,12 @@ test_1/OLED/CMakeFiles/oled.dir/clean:
 test_1/MPU6050/CMakeFiles/mpu6050.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\MPU6050\CMakeFiles\mpu6050.dir\build.make test_1/MPU6050/CMakeFiles/mpu6050.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\MPU6050\CMakeFiles\mpu6050.dir\build.make test_1/MPU6050/CMakeFiles/mpu6050.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46 "Built target mpu6050"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37 "Built target mpu6050"
 .PHONY : test_1/MPU6050/CMakeFiles/mpu6050.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/MPU6050/CMakeFiles/mpu6050.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/MPU6050/CMakeFiles/mpu6050.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/MPU6050/CMakeFiles/mpu6050.dir/rule
@@ -1999,12 +2035,12 @@ test_1/usart/CMakeFiles/usart.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMake
 test_1/usart/CMakeFiles/usart.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\usart\CMakeFiles\usart.dir\build.make test_1/usart/CMakeFiles/usart.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\usart\CMakeFiles\usart.dir\build.make test_1/usart/CMakeFiles/usart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97,98,99,100 "Built target usart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=82,83,84,85,86,87,88,89,90 "Built target usart"
 .PHONY : test_1/usart/CMakeFiles/usart.dir/all
 
 # Build rule for subdir invocation for target.
 test_1/usart/CMakeFiles/usart.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/usart/CMakeFiles/usart.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : test_1/usart/CMakeFiles/usart.dir/rule
@@ -2017,6 +2053,64 @@ usart: test_1/usart/CMakeFiles/usart.dir/rule
 test_1/usart/CMakeFiles/usart.dir/clean:
 	$(MAKE) $(MAKESILENT) -f test_1\usart\CMakeFiles\usart.dir\build.make test_1/usart/CMakeFiles/usart.dir/clean
 .PHONY : test_1/usart/CMakeFiles/usart.dir/clean
+
+#=============================================================================
+# Target rules for target test_1/spi/CMakeFiles/spi.dir
+
+# All Build rule for target.
+test_1/spi/CMakeFiles/spi.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+test_1/spi/CMakeFiles/spi.dir/all: test_1/OLED/CMakeFiles/oled.dir/all
+	$(MAKE) $(MAKESILENT) -f test_1\spi\CMakeFiles\spi.dir\build.make test_1/spi/CMakeFiles/spi.dir/depend
+	$(MAKE) $(MAKESILENT) -f test_1\spi\CMakeFiles\spi.dir\build.make test_1/spi/CMakeFiles/spi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80 "Built target spi"
+.PHONY : test_1/spi/CMakeFiles/spi.dir/all
+
+# Build rule for subdir invocation for target.
+test_1/spi/CMakeFiles/spi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 20
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/spi/CMakeFiles/spi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
+.PHONY : test_1/spi/CMakeFiles/spi.dir/rule
+
+# Convenience name for target.
+spi: test_1/spi/CMakeFiles/spi.dir/rule
+.PHONY : spi
+
+# clean rule for target.
+test_1/spi/CMakeFiles/spi.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test_1\spi\CMakeFiles\spi.dir\build.make test_1/spi/CMakeFiles/spi.dir/clean
+.PHONY : test_1/spi/CMakeFiles/spi.dir/clean
+
+#=============================================================================
+# Target rules for target test_1/USER/CMakeFiles/user.dir
+
+# All Build rule for target.
+test_1/USER/CMakeFiles/user.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/OLED/CMakeFiles/oled.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/spi/CMakeFiles/spi.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/i2c/CMakeFiles/i2c.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/MPU6050/CMakeFiles/mpu6050.dir/all
+	$(MAKE) $(MAKESILENT) -f test_1\USER\CMakeFiles\user.dir\build.make test_1/USER/CMakeFiles/user.dir/depend
+	$(MAKE) $(MAKESILENT) -f test_1\USER\CMakeFiles\user.dir\build.make test_1/USER/CMakeFiles/user.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=91,92,93,94,95,96,97,98,99,100 "Built target user"
+.PHONY : test_1/USER/CMakeFiles/user.dir/all
+
+# Build rule for subdir invocation for target.
+test_1/USER/CMakeFiles/user.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 55
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/USER/CMakeFiles/user.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
+.PHONY : test_1/USER/CMakeFiles/user.dir/rule
+
+# Convenience name for target.
+user: test_1/USER/CMakeFiles/user.dir/rule
+.PHONY : user
+
+# clean rule for target.
+test_1/USER/CMakeFiles/user.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test_1\USER\CMakeFiles\user.dir\build.make test_1/USER/CMakeFiles/user.dir/clean
+.PHONY : test_1/USER/CMakeFiles/user.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

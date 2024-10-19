@@ -47,6 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/OLED/cmake_install.cmake")
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/MPU6050/cmake_install.cmake")
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/cmake_install.cmake")
+  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/spi/cmake_install.cmake")
+  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/USER/cmake_install.cmake")
 
 endif()
 

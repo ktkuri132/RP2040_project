@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+  "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"

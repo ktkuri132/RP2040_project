@@ -23,8 +23,9 @@
         "core_riscv.h": "c",
         "inv_mpu.h": "c",
         "mpu6050.h": "c",
-        "inv_mpu_dmp_motion_driver.h": "c"
+        "inv_mpu_dmp_motion_driver.h": "c",
+        "spilib.h": "c"
     },
     "C_Cpp.errorSquiggles": "enabled",
-    "commentTranslate.hover.enabled": true
+    "commentTranslate.hover.enabled": false
 }

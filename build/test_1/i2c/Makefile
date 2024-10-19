@@ -985,6 +985,30 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/p
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
+C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+
+# target to build an object file
+C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj:
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+
+C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.i
+
+# target to preprocess a source file
+C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i:
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+.PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.s
+
+# target to generate assembly for a file
+C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+.PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
@@ -1773,6 +1797,9 @@ help:
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.i
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.s
+	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.obj
+	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.i
+	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.s
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.i
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.s

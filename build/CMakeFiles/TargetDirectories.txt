@@ -189,3 +189,9 @@ C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/MPU6050/CMakeFiles/rebuild_c
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/CMakeFiles/usart.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/CMakeFiles/edit_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/usart/CMakeFiles/rebuild_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/spi/CMakeFiles/spi.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/spi/CMakeFiles/edit_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/spi/CMakeFiles/rebuild_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/USER/CMakeFiles/user.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/USER/CMakeFiles/edit_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/USER/CMakeFiles/rebuild_cache.dir

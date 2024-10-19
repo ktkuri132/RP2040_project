@@ -44,3 +44,6 @@ add_subdirectory(test_1/i2c)
 add_subdirectory(test_1/OLED)
 add_subdirectory(test_1/MPU6050)
 add_subdirectory(test_1/usart)
+add_subdirectory(test_1/spi)
+
+add_subdirectory(test_1/USER)

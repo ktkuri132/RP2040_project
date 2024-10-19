@@ -45,10 +45,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/ktkuru/Desktop/RP2040_project/pico_sdk_import.cmake"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED/CMakeLists.txt"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/USER/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/led/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/multicore/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/pwm/CMakeLists.txt"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/spi/CMakeLists.txt"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/usart/CMakeLists.txt"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/CMakeLists.txt"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/cmake/Platform/PICO.cmake"
@@ -264,6 +266,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "test_1/OLED/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/MPU6050/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test_1/usart/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_1/spi/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_1/USER/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -283,4 +287,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "test_1/OLED/CMakeFiles/oled.dir/DependInfo.cmake"
   "test_1/MPU6050/CMakeFiles/mpu6050.dir/DependInfo.cmake"
   "test_1/usart/CMakeFiles/usart.dir/DependInfo.cmake"
+  "test_1/spi/CMakeFiles/spi.dir/DependInfo.cmake"
+  "test_1/USER/CMakeFiles/user.dir/DependInfo.cmake"
   )

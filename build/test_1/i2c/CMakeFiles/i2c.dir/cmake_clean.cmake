@@ -71,6 +71,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+  "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"

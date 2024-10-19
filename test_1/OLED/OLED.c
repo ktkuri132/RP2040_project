@@ -4,13 +4,34 @@
 
 uint8_t OLED_DisplayBuf[8][128];
 
+#ifdef __SPILIB_H__
 
+void GPIO_Init(uint8_t DC, uint8_t RES)
+{
+	gpio_init(DC);
+	gpio_init(RES);
+
+	gpio_pull_up(DC);
+	gpio_pull_up(RES);
+
+	gpio_set_dir(DC, GPIO_OUT);
+	gpio_set_dir(RES, GPIO_OUT);
+
+	gpio_put(DC, 1);
+	gpio_put(RES, 1);
+
+}
+
+#endif
 
 void OLED_Init()
 {
-
+	#ifdef __I2CLIB_H__
     OLED_GPIO_Init(OLED_I2C_PORT, OLED_SCL, OLED_SDA);
-
+	#endif
+	#ifdef __SPILIB_H__
+	OLED_GPIO_Init(OLED_SPI_PORT,OLED_DO,OLED_DI,OLED_CS);
+	#endif
     OLED_WriteCommand(0xAE);	//关闭显示
 	OLED_WriteCommand(0x20);	//设置内存地址模式
 	OLED_WriteCommand(0x10);	//水平寻址模式

@@ -66,6 +66,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED/../i2c"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED/../spi"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/common/pico_stdlib/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/common/pico_base/include"
@@ -105,6 +106,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/boot_stage2/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_spi/include"
   )
 
 # The set of dependency files which are needed:
@@ -124,6 +126,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d"
+  "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" "gcc" "test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d"

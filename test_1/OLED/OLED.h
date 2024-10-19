@@ -6,7 +6,10 @@
 #include <stdarg.h>
 
 /* 外部接口头文件  */
-#include <i2clib.h>
+//#include <i2clib.h>
+#include <spilib.h>
+
+#ifdef __I2CLIB_H__
 
 #define OLED_I2C_PORT i2c1
 #define OLED_SCL 3
@@ -18,9 +21,37 @@
 #define OLED_Command_Mode 0x00
 
 /* 江科大OLED IIC操作接口   */
-#define OLED_WriteCommand(Command) IIC_WriteCommand(OLED_I2C_PORT,OLED_ADDRESS,OLED_Command_Mode,Command)
-#define OLED_WriteData(Data,Count) IIC_WriteData(OLED_I2C_PORT,OLED_ADDRESS,OLED_Data_Mode,Data,Count)
-#define OLED_GPIO_Init(port,scl,sda) IIC_GPIO_Init(port,scl,sda)
+#define OLED_WriteCommand(Command)      IIC_WriteCommand(OLED_I2C_PORT,OLED_ADDRESS,OLED_Command_Mode,Command)
+#define OLED_WriteData(Data,Count)      IIC_WriteData(OLED_I2C_PORT,OLED_ADDRESS,OLED_Data_Mode,Data,Count)
+#define OLED_GPIO_Init(port,scl,sda)    IIC_GPIO_Init(port,scl,sda)
+
+#endif
+
+#ifdef __SPILIB_H__
+
+#define SCK     2   //时钟信号
+#define MOSI    3  //TX
+#define MISO    4  //RX
+#define CSn     5    //片选信号
+
+#define OLED_SPI_PORT   spi0
+#define OLED_DO         SCK    
+#define OLED_DI         MOSI
+#define OLED_RES        6
+#define OLED_DC         7
+#define OLED_CS         CSn
+
+#define OLED_WriteCommand(Command)  {                                                       \      
+                                        gpio_put(OLED_DC,0);                                \
+                                        SPI_WriteCommand(OLED_SPI_PORT,OLED_CS,Command);    \
+                                        gpio_put(OLED_DC,1);                                \
+                                    }
+
+#define OLED_WriteData(Data,Count)  SPI_WriteData(OLED_SPI_PORT,OLED_CS,Data,Count)
+#define OLED_GPIO_Init(port,DO,DI,CS)       SPI_GPIO_Init(port,DO,DI,MISO,CS)
+
+#endif
+
 
 /*FontSize参数取值*/
 /*此参数值不仅用于判断，而且用于计算横向字符偏移，默认值为字体像素宽度*/

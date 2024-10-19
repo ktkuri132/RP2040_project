@@ -10,7 +10,7 @@ test_1/OLED/CMakeFiles/oled.dir/OLED.c.obj: \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/sys/_intsup.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/sys/_stdint.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/lib/gcc/arm-none-eabi/13.3.1/include/stdarg.h \
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/i2clib.h \
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/spi/spilib.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_S~1\include/pico/stdlib.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico/types.h \
@@ -55,6 +55,6 @@ test_1/OLED/CMakeFiles/oled.dir/OLED.c.obj: \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/uart.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/dreq.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\PICO_S~4\include/pico/stdio_uart.h \
- C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA15F1~1\include/hardware/i2c.h \
- C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~2\include/hardware/structs/i2c.h \
- C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/i2c.h
+ C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA6B87~1\include/hardware/spi.h \
+ C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~2\include/hardware/structs/spi.h \
+ C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/spi.h

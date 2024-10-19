@@ -729,6 +729,20 @@ test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-s
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s"
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\OLED && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_i2c\i2c.c" -o CMakeFiles\oled.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_i2c\i2c.c.s
 
+test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: test_1/OLED/CMakeFiles/oled.dir/flags.make
+test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c
+test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: test_1/OLED/CMakeFiles/oled.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\OLED && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles\oled.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\oled.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c"
+
+test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\OLED && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c" > CMakeFiles\oled.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.i
+
+test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\OLED && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\ktkuru\Documents\Pico SDK v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c" -o CMakeFiles\oled.dir\C_\Users\ktkuru\Documents\Pico_SDK_v1.5.1\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
+
 # Object files for target oled
 oled_OBJECTS = \
 "CMakeFiles/oled.dir/OLED.c.obj" \
@@ -778,7 +792,8 @@ oled_OBJECTS = \
 "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
 "CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+"CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
+"CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 
 # External object files for target oled
 oled_EXTERNAL_OBJECTS =
@@ -831,9 +846,10 @@ test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents
 test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/build.make
 test_1/OLED/liboled.a: test_1/OLED/CMakeFiles/oled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX static library liboled.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Linking CXX static library liboled.a"
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\OLED && $(CMAKE_COMMAND) -P CMakeFiles\oled.dir\cmake_clean_target.cmake
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\OLED && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oled.dir\link.txt --verbose=$(VERBOSE)
 

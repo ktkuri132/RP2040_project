@@ -310,6 +310,32 @@ usart/fast:
 	$(MAKE) $(MAKESILENT) -f test_1\usart\CMakeFiles\usart.dir\build.make test_1/usart/CMakeFiles/usart.dir/build
 .PHONY : usart/fast
 
+#=============================================================================
+# Target rules for targets named spi
+
+# Build rule for target.
+spi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 spi
+.PHONY : spi
+
+# fast build rule for target.
+spi/fast:
+	$(MAKE) $(MAKESILENT) -f test_1\spi\CMakeFiles\spi.dir\build.make test_1/spi/CMakeFiles/spi.dir/build
+.PHONY : spi/fast
+
+#=============================================================================
+# Target rules for targets named user
+
+# Build rule for target.
+user: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 user
+.PHONY : user
+
+# fast build rule for target.
+user/fast:
+	$(MAKE) $(MAKESILENT) -f test_1\USER\CMakeFiles\user.dir\build.make test_1/USER/CMakeFiles/user.dir/build
+.PHONY : user/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -332,7 +358,9 @@ help:
 	@echo ... multicore
 	@echo ... oled
 	@echo ... pwm
+	@echo ... spi
 	@echo ... usart
+	@echo ... user
 .PHONY : help
 
 
