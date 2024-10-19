@@ -1,6 +1,6 @@
-test_1/i2c/OLED/CMakeFiles/oled.dir/OLED_Data.c.obj: \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\OLED\OLED_Data.c \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\OLED\OLED_Data.h \
+test_1/i2c/oled/CMakeFiles/oled.dir/OLED_Data.c.obj: \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\OLED\OLED_Data.c \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\OLED\OLED_Data.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/stdint.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/machine/_default_types.h \

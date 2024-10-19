@@ -1531,7 +1531,7 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/version.h
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.c
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.c
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/_ansi.h
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/_newlib_version.h
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/alloca.h
@@ -1601,12 +1601,12 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj
  C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/config_autogen.h
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/version.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.h
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.c
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.c
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/_ansi.h
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/_newlib_version.h
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/alloca.h
@@ -1676,14 +1676,14 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj
  C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/config_autogen.h
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/version.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/dmpKey.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/dmpmap.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/dmpKey.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/dmpmap.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.h
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.c
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.c
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/_ansi.h
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/_newlib_version.h
  C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/13.3 rel1/arm-none-eabi/include/assert.h
@@ -1738,5 +1738,5 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj
  C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/config_autogen.h
  C:/Users/ktkuru/Desktop/RP2040_project/build/generated/pico_base/pico/version.h
- C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h
+ C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h
 

@@ -1,4 +1,4 @@
-test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj: \
+test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj: \
  C:\Users\ktkuru\Documents\Pico\ SDK\ v1.5.1\pico-sdk\src\common\pico_time\time.c \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/lib/gcc/arm-none-eabi/13.3.1/include/limits.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/lib/gcc/arm-none-eabi/13.3.1/include/syslimits.h \

@@ -1,5 +1,5 @@
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu.c \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu.c \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/stdio.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/_ansi.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/newlib.h \
@@ -29,8 +29,8 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/strings.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/sys/string.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/math.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050/mpu6050.h \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu.h \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050/mpu6050.h \
  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/i2clib.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_S~1\include/pico/stdlib.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico.h \
@@ -73,4 +73,4 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HA15F1~1\include/hardware/i2c.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~2\include/hardware/structs/i2c.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/i2c.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu_dmp_motion_driver.h
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu_dmp_motion_driver.h

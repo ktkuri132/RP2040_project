@@ -1,8 +1,8 @@
 Archive member included to satisfy reference by file (symbol)
 
-OLED\liboled.a(OLED.c.obj)    CMakeFiles/i2c.dir/i2c.c.obj (OLED_Update)
-OLED\liboled.a(OLED_Data.c.obj)
-                              OLED\liboled.a(OLED.c.obj) (OLED_CF16x16)
+oled\liboled.a(OLED.c.obj)    CMakeFiles/i2c.dir/i2c.c.obj (OLED_Update)
+oled\liboled.a(OLED_Data.c.obj)
+                              oled\liboled.a(OLED.c.obj) (OLED_CF16x16)
 MPU6050\libmpu6050.a(inv_mpu.c.obj)
                               CMakeFiles/i2c.dir/i2c.c.obj (mpu_dmp_init)
 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
@@ -24,7 +24,7 @@ C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-reallocr.o)
                               C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-realloc.o) (_realloc_r)
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-vsprintf.o)
-                              OLED\liboled.a(OLED.c.obj) (vsprintf)
+                              oled\liboled.a(OLED.c.obj) (vsprintf)
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-memcmp.o)
                               MPU6050\libmpu6050.a(inv_mpu.c.obj) (memcmp)
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-memmove.o)
@@ -42,7 +42,7 @@ C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
                               C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o) (sysconf)
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strcmp.o)
-                              OLED\liboled.a(OLED.c.obj) (strcmp)
+                              oled\liboled.a(OLED.c.obj) (strcmp)
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
                               CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj (strlen)
 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
@@ -1548,55 +1548,55 @@ Discarded input sections
                 0x00000000       0x3e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_read_timeout_per_char_us
                 0x00000000       0x3e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .text          0x00000000        0x0 OLED\liboled.a(OLED.c.obj)
- .data          0x00000000        0x0 OLED\liboled.a(OLED.c.obj)
- .bss           0x00000000        0x0 OLED\liboled.a(OLED.c.obj)
+ .text          0x00000000        0x0 oled\liboled.a(OLED.c.obj)
+ .data          0x00000000        0x0 oled\liboled.a(OLED.c.obj)
+ .bss           0x00000000        0x0 oled\liboled.a(OLED.c.obj)
  .text.OLED_Pow
-                0x00000000       0x12 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x12 oled\liboled.a(OLED.c.obj)
  .text.OLED_pnpoly
-                0x00000000       0x88 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x88 oled\liboled.a(OLED.c.obj)
  .text.OLED_IsInAngle
-                0x00000000       0x74 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x74 oled\liboled.a(OLED.c.obj)
  .text.OLED_UpdateArea
-                0x00000000       0x6c OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x6c oled\liboled.a(OLED.c.obj)
  .text.OLED_Reverse
-                0x00000000       0x2c OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x2c oled\liboled.a(OLED.c.obj)
  .text.OLED_ReverseArea
-                0x00000000       0x8c OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x8c oled\liboled.a(OLED.c.obj)
  .text.OLED_ShowNum
-                0x00000000       0x5a OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x5a oled\liboled.a(OLED.c.obj)
  .text.OLED_ShowSignedNum
-                0x00000000       0x76 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x76 oled\liboled.a(OLED.c.obj)
  .text.OLED_ShowHexNum
-                0x00000000       0x68 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x68 oled\liboled.a(OLED.c.obj)
  .text.OLED_ShowBinNum
-                0x00000000       0x56 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x56 oled\liboled.a(OLED.c.obj)
  .text.OLED_ShowFloatNum
-                0x00000000       0xe4 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0xe4 oled\liboled.a(OLED.c.obj)
  .text.OLED_ShowChinese
-                0x00000000       0x94 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x94 oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawPoint
-                0x00000000       0x40 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x40 oled\liboled.a(OLED.c.obj)
  .text.OLED_GetPoint
-                0x00000000       0x4c OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x4c oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawLine
-                0x00000000      0x158 OLED\liboled.a(OLED.c.obj)
+                0x00000000      0x158 oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawRectangle
-                0x00000000       0x9c OLED\liboled.a(OLED.c.obj)
+                0x00000000       0x9c oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawTriangle
-                0x00000000       0xd6 OLED\liboled.a(OLED.c.obj)
+                0x00000000       0xd6 oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawCircle
-                0x00000000      0x19a OLED\liboled.a(OLED.c.obj)
+                0x00000000      0x19a oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawEllipse
-                0x00000000      0x354 OLED\liboled.a(OLED.c.obj)
+                0x00000000      0x354 oled\liboled.a(OLED.c.obj)
  .text.OLED_DrawArc
-                0x00000000      0x334 OLED\liboled.a(OLED.c.obj)
- .text          0x00000000        0x0 OLED\liboled.a(OLED_Data.c.obj)
- .data          0x00000000        0x0 OLED\liboled.a(OLED_Data.c.obj)
- .bss           0x00000000        0x0 OLED\liboled.a(OLED_Data.c.obj)
- .rodata.Diode  0x00000000       0x20 OLED\liboled.a(OLED_Data.c.obj)
+                0x00000000      0x334 oled\liboled.a(OLED.c.obj)
+ .text          0x00000000        0x0 oled\liboled.a(OLED_Data.c.obj)
+ .data          0x00000000        0x0 oled\liboled.a(OLED_Data.c.obj)
+ .bss           0x00000000        0x0 oled\liboled.a(OLED_Data.c.obj)
+ .rodata.Diode  0x00000000       0x20 oled\liboled.a(OLED_Data.c.obj)
  .rodata.OLED_CF16x16
-                0x00000000      0x1c7 OLED\liboled.a(OLED_Data.c.obj)
+                0x00000000      0x1c7 oled\liboled.a(OLED_Data.c.obj)
  .text          0x00000000        0x0 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .data          0x00000000        0x0 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .bss           0x00000000        0x0 MPU6050\libmpu6050.a(inv_mpu.c.obj)
@@ -1659,9 +1659,9 @@ Discarded input sections
                 0x00000000        0xc MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
  .text.dmp_register_android_orient_cb
                 0x00000000        0xc MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
- .text          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccyzTTNy.o
- .data          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccyzTTNy.o
- .bss           0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccyzTTNy.o
+ .text          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccw8Hb80.o
+ .data          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccw8Hb80.o
+ .bss           0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\ccw8Hb80.o
  .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
@@ -2136,7 +2136,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ktkuru\AppData\Local\Temp\ccyzTTNy.o
+ .boot2         0x10000000      0x100 C:\Users\ktkuru\AppData\Local\Temp\ccw8Hb80.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3100,31 +3100,31 @@ LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb
                 0x1000794c       0x18 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
                 0x1000794c                i2c_read_blocking
  .text.OLED_SetCursor
-                0x10007964       0x40 OLED\liboled.a(OLED.c.obj)
+                0x10007964       0x40 oled\liboled.a(OLED.c.obj)
                 0x10007964                OLED_SetCursor
  .text.OLED_Update
-                0x100079a4       0x38 OLED\liboled.a(OLED.c.obj)
+                0x100079a4       0x38 oled\liboled.a(OLED.c.obj)
                 0x100079a4                OLED_Update
  .text.OLED_Clear
-                0x100079dc       0x2c OLED\liboled.a(OLED.c.obj)
+                0x100079dc       0x2c oled\liboled.a(OLED.c.obj)
                 0x100079dc                OLED_Clear
  .text.OLED_Init
-                0x10007a08      0x16c OLED\liboled.a(OLED.c.obj)
+                0x10007a08      0x16c oled\liboled.a(OLED.c.obj)
                 0x10007a08                OLED_Init
  .text.OLED_ClearArea
-                0x10007b74       0x90 OLED\liboled.a(OLED.c.obj)
+                0x10007b74       0x90 oled\liboled.a(OLED.c.obj)
                 0x10007b74                OLED_ClearArea
  .text.OLED_ShowImage
-                0x10007c04      0x110 OLED\liboled.a(OLED.c.obj)
+                0x10007c04      0x110 oled\liboled.a(OLED.c.obj)
                 0x10007c04                OLED_ShowImage
  .text.OLED_ShowChar
-                0x10007d14       0x44 OLED\liboled.a(OLED.c.obj)
+                0x10007d14       0x44 oled\liboled.a(OLED.c.obj)
                 0x10007d14                OLED_ShowChar
  .text.OLED_ShowString
-                0x10007d58       0x32 OLED\liboled.a(OLED.c.obj)
+                0x10007d58       0x32 oled\liboled.a(OLED.c.obj)
                 0x10007d58                OLED_ShowString
  .text.OLED_Printf
-                0x10007d8a       0x2e OLED\liboled.a(OLED.c.obj)
+                0x10007d8a       0x2e oled\liboled.a(OLED.c.obj)
                 0x10007d8a                OLED_Printf
  .text.get_accel_prod_shift
                 0x10007db8       0xbc MPU6050\libmpu6050.a(inv_mpu.c.obj)
@@ -3689,11 +3689,11 @@ LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb
                 0x100106d8       0x11 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  *fill*         0x100106e9        0x3 
  .rodata.OLED_F6x8
-                0x100106ec      0x23a OLED\liboled.a(OLED_Data.c.obj)
+                0x100106ec      0x23a oled\liboled.a(OLED_Data.c.obj)
                 0x100106ec                OLED_F6x8
  *fill*         0x10010926        0x2 
  .rodata.OLED_F8x16
-                0x10010928      0x5f0 OLED\liboled.a(OLED_Data.c.obj)
+                0x10010928      0x5f0 oled\liboled.a(OLED_Data.c.obj)
                 0x10010928                OLED_F8x16
  .rodata.mpu_get_lpf
                 0x10010f18       0x1c MPU6050\libmpu6050.a(inv_mpu.c.obj)
@@ -3994,7 +3994,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb
  .bss.last_avail_time.2
                 0x20001410        0x8 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.OLED_DisplayBuf
-                0x20001418      0x400 OLED\liboled.a(OLED.c.obj)
+                0x20001418      0x400 oled\liboled.a(OLED.c.obj)
                 0x20001418                OLED_DisplayBuf
  .bss.__lock___malloc_recursive_mutex
                 0x20001818        0x1 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
@@ -4213,9 +4213,9 @@ LOAD CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/t
 LOAD CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-LOAD OLED\liboled.a
+LOAD oled\liboled.a
 LOAD MPU6050\libmpu6050.a
-LOAD C:\Users\ktkuru\AppData\Local\Temp\ccyzTTNy.o
+LOAD C:\Users\ktkuru\AppData\Local\Temp\ccw8Hb80.o
 LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -4336,15 +4336,15 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007fa       0x2c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .ARM.attributes
-                0x00000826       0x2c OLED\liboled.a(OLED.c.obj)
+                0x00000826       0x2c oled\liboled.a(OLED.c.obj)
  .ARM.attributes
-                0x00000852       0x2c OLED\liboled.a(OLED_Data.c.obj)
+                0x00000852       0x2c oled\liboled.a(OLED_Data.c.obj)
  .ARM.attributes
                 0x0000087e       0x2c MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .ARM.attributes
                 0x000008aa       0x2c MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
  .ARM.attributes
-                0x000008d6       0x22 C:\Users\ktkuru\AppData\Local\Temp\ccyzTTNy.o
+                0x000008d6       0x22 C:\Users\ktkuru\AppData\Local\Temp\ccw8Hb80.o
  .ARM.attributes
                 0x000008f8       0x1e C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -4454,8 +4454,8 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .comment       0x00000045       0x46 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .comment       0x00000045       0x46 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .comment       0x00000045       0x46 OLED\liboled.a(OLED.c.obj)
- .comment       0x00000045       0x46 OLED\liboled.a(OLED_Data.c.obj)
+ .comment       0x00000045       0x46 oled\liboled.a(OLED.c.obj)
+ .comment       0x00000045       0x46 oled\liboled.a(OLED_Data.c.obj)
  .comment       0x00000045       0x46 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .comment       0x00000045       0x46 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
 
@@ -4507,8 +4507,8 @@ LOAD linker stubs
  .debug_info    0x00023402     0x14de CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_info    0x000248e0     0x27f4 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_info    0x000270d4     0x15fd CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_info    0x000286d1     0x2b60 OLED\liboled.a(OLED.c.obj)
- .debug_info    0x0002b231      0x1f8 OLED\liboled.a(OLED_Data.c.obj)
+ .debug_info    0x000286d1     0x2b60 oled\liboled.a(OLED.c.obj)
+ .debug_info    0x0002b231      0x1f8 oled\liboled.a(OLED_Data.c.obj)
  .debug_info    0x0002b429     0x307c MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .debug_info    0x0002e4a5     0x141d MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
 
@@ -4560,8 +4560,8 @@ LOAD linker stubs
  .debug_abbrev  0x00006975      0x472 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_abbrev  0x00006de7      0x47a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_abbrev  0x00007261      0x496 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_abbrev  0x000076f7      0x34f OLED\liboled.a(OLED.c.obj)
- .debug_abbrev  0x00007a46       0xad OLED\liboled.a(OLED_Data.c.obj)
+ .debug_abbrev  0x000076f7      0x34f oled\liboled.a(OLED.c.obj)
+ .debug_abbrev  0x00007a46       0xad oled\liboled.a(OLED_Data.c.obj)
  .debug_abbrev  0x00007af3      0x336 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .debug_abbrev  0x00007e29      0x226 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
 
@@ -4661,9 +4661,9 @@ LOAD linker stubs
  .debug_aranges
                 0x00001738       0x78 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .debug_aranges
-                0x000017b0      0x100 OLED\liboled.a(OLED.c.obj)
+                0x000017b0      0x100 oled\liboled.a(OLED.c.obj)
  .debug_aranges
-                0x000018b0       0x18 OLED\liboled.a(OLED_Data.c.obj)
+                0x000018b0       0x18 oled\liboled.a(OLED_Data.c.obj)
  .debug_aranges
                 0x000018c8      0x1b8 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .debug_aranges
@@ -4762,118 +4762,118 @@ LOAD linker stubs
  .debug_rnglists
                 0x00001728       0x8d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .debug_rnglists
-                0x000017b5       0xc8 OLED\liboled.a(OLED.c.obj)
+                0x000017b5       0xc8 oled\liboled.a(OLED.c.obj)
  .debug_rnglists
                 0x0000187d      0x183 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .debug_rnglists
                 0x00001a00       0xbb MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
 
-.debug_line     0x00000000    0x1ed03
- .debug_line    0x00000000      0x20a CMakeFiles/i2c.dir/i2c.c.obj
- .debug_line    0x0000020a      0x414 CMakeFiles/i2c.dir/i2clib.c.obj
- .debug_line    0x0000061e      0xc2c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000124a      0x294 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x000014de      0x49e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0000197c      0x487 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001e03     0x1091 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00002e94      0x259 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000030ed     0x110c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000041f9      0x2eb CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x000044e4     0x1a01 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00005ee5      0xc3a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00006b1f      0x823 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007342      0xa4f CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00007d91      0x52c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000082bd      0x478 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008735      0x2b8 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000089ed      0xb42 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000952f     0x12ad CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000a7dc      0x11a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000a8f6      0x27f CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000ab75      0x2a9 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000ae1e      0x3fa CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000b218      0x3b8 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000b5d0     0x2202 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_line    0x0000d7d2      0x66c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000de3e       0x61 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000de9f      0x3b2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000e251      0x3ad CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000e5fe      0x198 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000e796       0x94 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000e82a       0xa5 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000e8cf      0x1e2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000eab1      0xf20 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000f9d1      0x4ec CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000febd      0xe23 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x00010ce0      0x365 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x00011045      0x3b7 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x000113fc      0x8bf CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x00011cbb      0xf3c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00012bf7      0xad0 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000136c7     0x1f6c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x00015633      0x577 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00015baa      0xda3 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x0001694d      0xc8a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x000175d7     0x181d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x00018df4      0xc6e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_line    0x00019a62     0x1810 OLED\liboled.a(OLED.c.obj)
- .debug_line    0x0001b272      0x10f OLED\liboled.a(OLED_Data.c.obj)
- .debug_line    0x0001b381     0x28f9 MPU6050\libmpu6050.a(inv_mpu.c.obj)
- .debug_line    0x0001dc7a     0x1089 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
+.debug_line     0x00000000    0x1eceb
+ .debug_line    0x00000000      0x202 CMakeFiles/i2c.dir/i2c.c.obj
+ .debug_line    0x00000202      0x414 CMakeFiles/i2c.dir/i2clib.c.obj
+ .debug_line    0x00000616      0xc2c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001242      0x294 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x000014d6      0x49e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001974      0x487 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001dfb     0x1091 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00002e8c      0x259 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x000030e5     0x110c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000041f1      0x2eb CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x000044dc     0x1a01 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00005edd      0xc3a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00006b17      0x823 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x0000733a      0xa4f CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00007d89      0x52c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000082b5      0x478 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0000872d      0x2b8 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000089e5      0xb42 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00009527     0x12ad CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000a7d4      0x11a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000a8ee      0x27f CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000ab6d      0x2a9 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000ae16      0x3fa CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000b210      0x3b8 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000b5c8     0x2202 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_line    0x0000d7ca      0x66c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000de36       0x61 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000de97      0x3b2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000e249      0x3ad CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000e5f6      0x198 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000e78e       0x94 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000e822       0xa5 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000e8c7      0x1e2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000eaa9      0xf20 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000f9c9      0x4ec CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000feb5      0xe23 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x00010cd8      0x365 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0001103d      0x3b7 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x000113f4      0x8bf CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x00011cb3      0xf3c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00012bef      0xad0 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x000136bf     0x1f6c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0001562b      0x577 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00015ba2      0xda3 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00016945      0xc8a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x000175cf     0x181d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x00018dec      0xc6e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_line    0x00019a5a     0x180c oled\liboled.a(OLED.c.obj)
+ .debug_line    0x0001b266      0x10b oled\liboled.a(OLED_Data.c.obj)
+ .debug_line    0x0001b371     0x28f5 MPU6050\libmpu6050.a(inv_mpu.c.obj)
+ .debug_line    0x0001dc66     0x1085 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
 
-.debug_str      0x00000000     0x8bc9
- .debug_str     0x00000000     0x8bc9 CMakeFiles/i2c.dir/i2c.c.obj
+.debug_str      0x00000000     0x8bb9
+ .debug_str     0x00000000     0x8bb9 CMakeFiles/i2c.dir/i2c.c.obj
                                 0x22b (size before relaxing)
- .debug_str     0x00008bc9      0x592 CMakeFiles/i2c.dir/i2clib.c.obj
- .debug_str     0x00008bc9      0xa23 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_str     0x00008bc9      0x24a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_str     0x00008bc9      0x38e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_str     0x00008bc9      0x375 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_str     0x00008bc9      0x843 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_str     0x00008bc9      0x22b CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_str     0x00008bc9      0x61d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_str     0x00008bc9      0x2eb CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_str     0x00008bc9      0xca0 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_str     0x00008bc9      0x755 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_str     0x00008bc9      0x41b CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_str     0x00008bc9      0x6f2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_str     0x00008bc9      0x306 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_str     0x00008bc9      0x34c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_str     0x00008bc9      0x249 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_str     0x00008bc9      0x80c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_str     0x00008bc9      0x4aa CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_str     0x00008bc9       0xa5 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_str     0x00008bc9      0x2a1 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_str     0x00008bc9       0x9f CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_str     0x00008bc9       0xa3 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_str     0x00008bc9      0x2ea CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_str     0x00008bc9      0x536 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
- .debug_str     0x00008bc9       0xa9 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_str     0x00008bc9       0xae CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_str     0x00008bc9       0xa1 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_str     0x00008bc9      0x2e6 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_str     0x00008bc9       0xa7 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_str     0x00008bc9       0xa5 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_str     0x00008bc9       0xa2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_str     0x00008bc9      0x40c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_str     0x00008bc9      0x9f6 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_str     0x00008bc9      0x790 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_str     0x00008bc9      0xb49 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_str     0x00008bc9      0xe80 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_str     0x00008bc9      0x29d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_str     0x00008bc9      0x63d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_str     0x00008bc9      0xeef CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_str     0x00008bc9      0x842 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_str     0x00008bc9     0x1768 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_str     0x00008bc9      0x54c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_str     0x00008bc9     0x1541 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_str     0x00008bc9      0xaf3 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_str     0x00008bc9      0x77c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_str     0x00008bc9      0x945 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_str     0x00008bc9      0x8bb OLED\liboled.a(OLED.c.obj)
- .debug_str     0x00008bc9      0x1e7 OLED\liboled.a(OLED_Data.c.obj)
- .debug_str     0x00008bc9      0xfec MPU6050\libmpu6050.a(inv_mpu.c.obj)
- .debug_str     0x00008bc9      0x729 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
+ .debug_str     0x00008bb9      0x592 CMakeFiles/i2c.dir/i2clib.c.obj
+ .debug_str     0x00008bb9      0xa23 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x00008bb9      0x24a CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_str     0x00008bb9      0x38e CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_str     0x00008bb9      0x375 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00008bb9      0x843 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00008bb9      0x22b CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x00008bb9      0x61d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00008bb9      0x2eb CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_str     0x00008bb9      0xca0 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_str     0x00008bb9      0x755 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00008bb9      0x41b CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00008bb9      0x6f2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00008bb9      0x306 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x00008bb9      0x34c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x00008bb9      0x249 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x00008bb9      0x80c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00008bb9      0x4aa CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00008bb9       0xa5 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00008bb9      0x2a1 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00008bb9       0x9f CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_str     0x00008bb9       0xa3 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_str     0x00008bb9      0x2ea CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_str     0x00008bb9      0x536 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+ .debug_str     0x00008bb9       0xa9 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_str     0x00008bb9       0xae CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x00008bb9       0xa1 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_str     0x00008bb9      0x2e6 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_str     0x00008bb9       0xa7 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_str     0x00008bb9       0xa5 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00008bb9       0xa2 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_str     0x00008bb9      0x40c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_str     0x00008bb9      0x9f6 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x00008bb9      0x790 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_str     0x00008bb9      0xb49 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_str     0x00008bb9      0xe80 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_str     0x00008bb9      0x29d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_str     0x00008bb9      0x63d CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_str     0x00008bb9      0xeef CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_str     0x00008bb9      0x842 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_str     0x00008bb9     0x1768 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_str     0x00008bb9      0x54c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_str     0x00008bb9     0x1541 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_str     0x00008bb9      0xaf3 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_str     0x00008bb9      0x77c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_str     0x00008bb9      0x945 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_str     0x00008bb9      0x8b7 oled\liboled.a(OLED.c.obj)
+ .debug_str     0x00008bb9      0x1e3 oled\liboled.a(OLED_Data.c.obj)
+ .debug_str     0x00008bb9      0xfe8 MPU6050\libmpu6050.a(inv_mpu.c.obj)
+ .debug_str     0x00008bb9      0x725 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
 
 .debug_frame    0x00000000     0x4d60
  .debug_frame   0x00000000       0x2c CMakeFiles/i2c.dir/i2c.c.obj
@@ -4913,7 +4913,7 @@ LOAD linker stubs
  .debug_frame   0x00002e38      0x1bc CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_frame   0x00002ff4      0x33c CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_frame   0x00003330      0x1a8 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_frame   0x000034d8      0x40c OLED\liboled.a(OLED.c.obj)
+ .debug_frame   0x000034d8      0x40c oled\liboled.a(OLED.c.obj)
  .debug_frame   0x000038e4      0x554 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .debug_frame   0x00003e38      0x2f4 MPU6050\libmpu6050.a(inv_mpu_dmp_motion_driver.c.obj)
  .debug_frame   0x0000412c       0x2c C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-callocr.o)
@@ -5023,7 +5023,7 @@ LOAD linker stubs
  .debug_loclists
                 0x00011dd7      0xd36 CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .debug_loclists
-                0x00012b0d     0x1cf9 OLED\liboled.a(OLED.c.obj)
+                0x00012b0d     0x1cf9 oled\liboled.a(OLED.c.obj)
  .debug_loclists
                 0x00014806     0x1710 MPU6050\libmpu6050.a(inv_mpu.c.obj)
  .debug_loclists

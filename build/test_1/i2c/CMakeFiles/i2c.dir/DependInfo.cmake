@@ -64,7 +64,6 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"
   "PICO_RP2040_USB_DEVICE_UFRAME_FIX=1"
-  "PICO_TARGET_NAME=\"i2c\""
   "PICO_USE_BLOCKED_RAM=0"
   )
 
@@ -117,10 +116,10 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/lib/tinyusb/hw"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/include"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/OLED"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/OLED/.."
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/.."
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED/../i2c"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/../i2c"
   )
 
 # The set of dependency files which are needed:
@@ -183,7 +182,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/i2c.c" "test_1/i2c/CMakeFiles/i2c.dir/i2c.c.obj" "gcc" "test_1/i2c/CMakeFiles/i2c.dir/i2c.c.obj.d"
   "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/i2clib.c" "test_1/i2c/CMakeFiles/i2c.dir/i2clib.c.obj" "gcc" "test_1/i2c/CMakeFiles/i2c.dir/i2clib.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )

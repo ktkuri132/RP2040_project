@@ -1633,30 +1633,6 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id
 	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
-i2c.obj: i2c.c.obj
-.PHONY : i2c.obj
-
-# target to build an object file
-i2c.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/i2c.c.obj
-.PHONY : i2c.c.obj
-
-i2c.i: i2c.c.i
-.PHONY : i2c.i
-
-# target to preprocess a source file
-i2c.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/i2c.c.i
-.PHONY : i2c.c.i
-
-i2c.s: i2c.c.s
-.PHONY : i2c.s
-
-# target to generate assembly for a file
-i2c.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\CMakeFiles\i2c.dir\build.make test_1/i2c/CMakeFiles/i2c.dir/i2c.c.s
-.PHONY : i2c.c.s
-
 i2clib.obj: i2clib.c.obj
 .PHONY : i2clib.obj
 
@@ -1878,9 +1854,6 @@ help:
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 	@echo ... C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
-	@echo ... i2c.obj
-	@echo ... i2c.i
-	@echo ... i2c.s
 	@echo ... i2clib.obj
 	@echo ... i2clib.i
 	@echo ... i2clib.s

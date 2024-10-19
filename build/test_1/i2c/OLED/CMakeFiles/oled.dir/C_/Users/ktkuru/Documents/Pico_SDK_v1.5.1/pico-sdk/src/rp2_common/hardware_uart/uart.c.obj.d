@@ -1,4 +1,4 @@
-test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: \
+test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: \
  C:\Users\ktkuru\Documents\Pico\ SDK\ v1.5.1\pico-sdk\src\rp2_common\hardware_uart\uart.c \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\RP2_CO~1\HARDWA~2\include/hardware/address_mapped.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico.h \

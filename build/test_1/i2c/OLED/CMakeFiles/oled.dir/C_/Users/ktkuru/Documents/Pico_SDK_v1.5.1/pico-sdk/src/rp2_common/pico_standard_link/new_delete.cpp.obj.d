@@ -1,4 +1,4 @@
-test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
+test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
  C:\Users\ktkuru\Documents\Pico\ SDK\ v1.5.1\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/c++/13.3.1/cstdlib \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/arm-none-eabi/include/c++/13.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \

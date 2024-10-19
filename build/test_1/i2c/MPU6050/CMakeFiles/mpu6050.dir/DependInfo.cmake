@@ -64,8 +64,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/.."
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/../i2c"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/common/pico_stdlib/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/include"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/common/pico_base/include"
@@ -143,9 +143,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj.d"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj.d"
-  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj.d"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj.d"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj.d"
+  "C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.c" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj.d"
   "C:/Users/ktkuru/Documents/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

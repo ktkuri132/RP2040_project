@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\OLED\\CMakeFiles\progress.marks
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/OLED/all
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\oled\\CMakeFiles\progress.marks
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/oled/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/OLED/clean
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/oled/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,12 +102,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/OLED/preinstall
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/oled/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/OLED/preinstall
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/oled/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test_1/i2c/OLED/CMakeFiles/oled.dir/rule:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/OLED/CMakeFiles/oled.dir/rule
-.PHONY : test_1/i2c/OLED/CMakeFiles/oled.dir/rule
+test_1/i2c/oled/CMakeFiles/oled.dir/rule:
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_1/i2c/oled/CMakeFiles/oled.dir/rule
+.PHONY : test_1/i2c/oled/CMakeFiles/oled.dir/rule
 
 # Convenience name for target.
-oled: test_1/i2c/OLED/CMakeFiles/oled.dir/rule
+oled: test_1/i2c/oled/CMakeFiles/oled.dir/rule
 .PHONY : oled
 
 # fast build rule for target.
 oled/fast:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/build
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/build
 .PHONY : oled/fast
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -134,7 +134,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -142,7 +142,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -150,7 +150,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -158,7 +158,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_cor
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -166,7 +166,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_cor
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -174,7 +174,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_cor
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -182,7 +182,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.ob
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -190,7 +190,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.i:
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -198,7 +198,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.s:
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -206,7 +206,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.obj:
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.i
@@ -214,7 +214,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.i: C
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.s
@@ -222,7 +222,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.s: C
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
@@ -230,7 +230,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.i
@@ -238,7 +238,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.i: 
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.s
@@ -246,7 +246,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.s: 
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -254,7 +254,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -262,7 +262,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -270,7 +270,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -278,7 +278,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.i
@@ -286,7 +286,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.s
@@ -294,7 +294,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -302,7 +302,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.ob
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.i
@@ -310,7 +310,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.i:
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.s
@@ -318,7 +318,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.s:
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj
@@ -326,7 +326,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.ob
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.i
@@ -334,7 +334,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.i:
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.s
@@ -342,7 +342,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.s:
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -350,7 +350,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -358,7 +358,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -366,7 +366,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -374,7 +374,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clock
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -382,7 +382,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clock
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -390,7 +390,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clock
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divider/divider.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -398,7 +398,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divid
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -406,7 +406,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -414,7 +414,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -422,7 +422,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
@@ -430,7 +430,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
@@ -438,7 +438,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
@@ -446,7 +446,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -454,7 +454,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -462,7 +462,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -470,7 +470,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -478,7 +478,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/i
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -486,7 +486,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/p
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -494,7 +494,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/p
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -502,7 +502,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/p
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -510,7 +510,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -518,7 +518,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -526,7 +526,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -534,7 +534,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -542,7 +542,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -550,7 +550,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -558,7 +558,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -566,7 +566,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -574,7 +574,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -582,7 +582,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -590,7 +590,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -598,7 +598,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -606,7 +606,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watch
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -614,7 +614,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watch
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -622,7 +622,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watch
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -630,7 +630,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -638,7 +638,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -646,7 +646,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -654,7 +654,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/b
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -662,7 +662,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/b
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -670,7 +670,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/b
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -678,7 +678,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/b
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -686,7 +686,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/d
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -694,7 +694,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -702,7 +702,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -710,7 +710,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -718,7 +718,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -726,7 +726,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -734,7 +734,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -742,7 +742,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -750,7 +750,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/do
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -758,7 +758,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -766,7 +766,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -774,7 +774,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -782,7 +782,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -790,7 +790,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -798,7 +798,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -806,7 +806,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -814,7 +814,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/flo
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -822,7 +822,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -830,7 +830,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pi
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -838,7 +838,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pi
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -846,7 +846,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pi
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -854,7 +854,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/m
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -862,7 +862,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -870,7 +870,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -878,7 +878,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -886,7 +886,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/pr
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -894,7 +894,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/pr
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -902,7 +902,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/pr
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -910,7 +910,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/r
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -918,7 +918,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/r
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -926,7 +926,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/r
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -934,7 +934,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -942,7 +942,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -950,7 +950,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -958,7 +958,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -966,7 +966,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -974,7 +974,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -982,7 +982,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -990,7 +990,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/std
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -998,7 +998,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/std
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1006,7 +1006,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/std
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1014,7 +1014,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uar
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1022,7 +1022,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uar
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1030,7 +1030,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uar
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1038,7 +1038,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/st
 
 # target to build an object file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1046,7 +1046,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/st
 
 # target to preprocess a source file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1054,7 +1054,7 @@ C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/st
 
 # target to generate assembly for a file
 C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 OLED.obj: OLED.c.obj
@@ -1062,7 +1062,7 @@ OLED.obj: OLED.c.obj
 
 # target to build an object file
 OLED.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/OLED.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/OLED.c.obj
 .PHONY : OLED.c.obj
 
 OLED.i: OLED.c.i
@@ -1070,7 +1070,7 @@ OLED.i: OLED.c.i
 
 # target to preprocess a source file
 OLED.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/OLED.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/OLED.c.i
 .PHONY : OLED.c.i
 
 OLED.s: OLED.c.s
@@ -1078,7 +1078,7 @@ OLED.s: OLED.c.s
 
 # target to generate assembly for a file
 OLED.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/OLED.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/OLED.c.s
 .PHONY : OLED.c.s
 
 OLED_Data.obj: OLED_Data.c.obj
@@ -1086,7 +1086,7 @@ OLED_Data.obj: OLED_Data.c.obj
 
 # target to build an object file
 OLED_Data.c.obj:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/OLED_Data.c.obj
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/OLED_Data.c.obj
 .PHONY : OLED_Data.c.obj
 
 OLED_Data.i: OLED_Data.c.i
@@ -1094,7 +1094,7 @@ OLED_Data.i: OLED_Data.c.i
 
 # target to preprocess a source file
 OLED_Data.c.i:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/OLED_Data.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/OLED_Data.c.i
 .PHONY : OLED_Data.c.i
 
 OLED_Data.s: OLED_Data.c.s
@@ -1102,7 +1102,7 @@ OLED_Data.s: OLED_Data.c.s
 
 # target to generate assembly for a file
 OLED_Data.c.s:
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/OLED_Data.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build && $(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/OLED_Data.c.s
 .PHONY : OLED_Data.c.s
 
 # Help Target

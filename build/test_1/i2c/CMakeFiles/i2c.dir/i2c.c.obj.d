@@ -55,8 +55,8 @@ test_1/i2c/CMakeFiles/i2c.dir/i2c.c.obj: \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~2\include/hardware/structs/i2c.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\rp2040\HARDWA~1\include/hardware/regs/i2c.h \
  C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c/i2clib.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\OLED/OLED.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\OLED/OLED_Data.h \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\OLED/OLED.h \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\OLED/OLED_Data.h \
  C:/PROGRA~2/ARMGNU~1/133167~1.3RE/lib/gcc/arm-none-eabi/13.3.1/include/stdarg.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050/mpu6050.h \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050/inv_mpu.h
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050/mpu6050.h \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050/inv_mpu.h

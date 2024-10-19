@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/OLED/cmake_install.cmake")
+  include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/oled/cmake_install.cmake")
   include("C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/cmake_install.cmake")
 
 endif()

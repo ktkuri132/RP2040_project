@@ -180,9 +180,9 @@ C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/multicore/CMakeFiles/rebuild
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/CMakeFiles/i2c.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/CMakeFiles/edit_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/CMakeFiles/rebuild_cache.dir
-C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/OLED/CMakeFiles/oled.dir
-C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/OLED/CMakeFiles/edit_cache.dir
-C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/OLED/CMakeFiles/rebuild_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/oled/CMakeFiles/oled.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/oled/CMakeFiles/edit_cache.dir
+C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/oled/CMakeFiles/rebuild_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/CMakeFiles/edit_cache.dir
 C:/Users/ktkuru/Desktop/RP2040_project/build/test_1/i2c/MPU6050/CMakeFiles/rebuild_cache.dir

@@ -1,6 +1,6 @@
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\mpu6050.c \
- C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050/mpu6050.h \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\mpu6050.c \
+ C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050/mpu6050.h \
  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/i2clib.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_S~1\include/pico/stdlib.h \
  C:\Users\ktkuru\DOCUME~1\PICOSD~1.1\pico-sdk\src\common\PICO_B~1\include/pico.h \

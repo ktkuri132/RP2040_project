@@ -69,46 +69,46 @@ include test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/progress.make
 include test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/flags.make
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/flags.make
-test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.c
+test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.c
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj -MF CMakeFiles\mpu6050.dir\inv_mpu.c.obj.d -o CMakeFiles\mpu6050.dir\inv_mpu.c.obj -c C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu.c
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj -MF CMakeFiles\mpu6050.dir\inv_mpu.c.obj.d -o CMakeFiles\mpu6050.dir\inv_mpu.c.obj -c C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu.c
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mpu6050.dir/inv_mpu.c.i"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu.c > CMakeFiles\mpu6050.dir\inv_mpu.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu.c > CMakeFiles\mpu6050.dir\inv_mpu.c.i
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mpu6050.dir/inv_mpu.c.s"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu.c -o CMakeFiles\mpu6050.dir\inv_mpu.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu.c -o CMakeFiles\mpu6050.dir\inv_mpu.c.s
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/flags.make
-test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.c
+test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.c
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj -MF CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.obj.d -o CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.obj -c C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu_dmp_motion_driver.c
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj -MF CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.obj.d -o CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.obj -c C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu_dmp_motion_driver.c
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.i"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu_dmp_motion_driver.c > CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu_dmp_motion_driver.c > CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.i
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.s"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\inv_mpu_dmp_motion_driver.c -o CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\inv_mpu_dmp_motion_driver.c -o CMakeFiles\mpu6050.dir\inv_mpu_dmp_motion_driver.c.s
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/flags.make
-test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.c
+test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.c
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj -MF CMakeFiles\mpu6050.dir\mpu6050.c.obj.d -o CMakeFiles\mpu6050.dir\mpu6050.c.obj -c C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\mpu6050.c
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj -MF CMakeFiles\mpu6050.dir\mpu6050.c.obj.d -o CMakeFiles\mpu6050.dir\mpu6050.c.obj -c C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\mpu6050.c
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/mpu6050.dir/mpu6050.c.i"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\mpu6050.c > CMakeFiles\mpu6050.dir\mpu6050.c.i
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\mpu6050.c > CMakeFiles\mpu6050.dir\mpu6050.c.i
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/mpu6050.dir/mpu6050.c.s"
-	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050\mpu6050.c -o CMakeFiles\mpu6050.dir\mpu6050.c.s
+	cd /d C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 && C:\PROGRA~2\ARMGNU~1\133167~1.3RE\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050\mpu6050.c -o CMakeFiles\mpu6050.dir\mpu6050.c.s
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/flags.make
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
@@ -862,6 +862,6 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/clean:
 .PHONY : test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/clean
 
 test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ktkuru\Desktop\RP2040_project C:\Users\ktkuru\Desktop\RP2040_project\test_1\i2c\MPU6050 C:\Users\ktkuru\Desktop\RP2040_project\build C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050\CMakeFiles\mpu6050.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\ktkuru\Desktop\RP2040_project C:\Users\ktkuru\Desktop\RP2040_project\test_1\MPU6050 C:\Users\ktkuru\Desktop\RP2040_project\build C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050 C:\Users\ktkuru\Desktop\RP2040_project\build\test_1\i2c\MPU6050\CMakeFiles\mpu6050.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/depend
 

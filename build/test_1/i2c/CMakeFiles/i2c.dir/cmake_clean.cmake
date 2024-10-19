@@ -128,13 +128,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
   "CMakeFiles/i2c.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "CMakeFiles/i2c.dir/i2c.c.obj"
-  "CMakeFiles/i2c.dir/i2c.c.obj.d"
   "CMakeFiles/i2c.dir/i2clib.c.obj"
   "CMakeFiles/i2c.dir/i2clib.c.obj.d"
-  "i2c.elf"
-  "i2c.elf.manifest"
-  "i2c.pdb"
+  "libi2c.a"
+  "libi2c.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

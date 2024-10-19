@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050
+# Install script for directory: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

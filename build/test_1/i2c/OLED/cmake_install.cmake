@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/OLED
+# Install script for directory: C:/Users/ktkuru/Desktop/RP2040_project/test_1/OLED
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

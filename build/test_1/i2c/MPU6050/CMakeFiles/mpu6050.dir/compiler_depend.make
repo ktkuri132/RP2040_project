@@ -1495,7 +1495,7 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/C_/Users/ktkuru/Documents/Pico_SDK_v1.
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h
 
-test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.c \
+test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.c \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_newlib_version.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/alloca.h \
@@ -1565,11 +1565,11 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu.c.obj: C:/Users/ktkuru/Desktop
   C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.h
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h \
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.h \
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.h
 
-test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.c \
+test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.c \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_newlib_version.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/alloca.h \
@@ -1639,13 +1639,13 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/inv_mpu_dmp_motion_driver.c.obj: C:/Us
   C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/dmpKey.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/dmpmap.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.h
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h \
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/dmpKey.h \
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/dmpmap.h \
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.h \
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.h
 
-test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.c \
+test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.c \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_ansi.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/_newlib_version.h \
   C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/assert.h \
@@ -1700,7 +1700,7 @@ test_1/i2c/MPU6050/CMakeFiles/mpu6050.dir/mpu6050.c.obj: C:/Users/ktkuru/Desktop
   C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h
+  C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h
 
 
 C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_sync/include/pico/sem.h:
@@ -1780,6 +1780,8 @@ C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/lib/gcc/a
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h:
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/stdio.h:
+
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.c:
 
 C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/common/pico_time/time.c:
 
@@ -1900,6 +1902,8 @@ C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/in
 C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
 C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu_dmp_motion_driver.h:
 
 C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
@@ -2067,20 +2071,16 @@ C:/Users/ktkuru/Documents/Pico\ SDK\ v1.5.1/pico-sdk/src/rp2_common/pico_stdio/s
 
 C:/Program\ Files\ (x86)/Arm\ GNU\ Toolchain\ arm-none-eabi/13.3\ rel1/arm-none-eabi/include/sys/stat.h:
 
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.c:
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.c:
 
 C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/i2clib.h:
 
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.h:
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.h:
 
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu.h:
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/inv_mpu.h:
 
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.h:
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/dmpKey.h:
 
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/inv_mpu_dmp_motion_driver.c:
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/dmpmap.h:
 
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/dmpKey.h:
-
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/dmpmap.h:
-
-C:/Users/ktkuru/Desktop/RP2040_project/test_1/i2c/MPU6050/mpu6050.c:
+C:/Users/ktkuru/Desktop/RP2040_project/test_1/MPU6050/mpu6050.c:

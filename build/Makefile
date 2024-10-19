@@ -281,7 +281,7 @@ oled: cmake_check_build_system
 
 # fast build rule for target.
 oled/fast:
-	$(MAKE) $(MAKESILENT) -f test_1\i2c\OLED\CMakeFiles\oled.dir\build.make test_1/i2c/OLED/CMakeFiles/oled.dir/build
+	$(MAKE) $(MAKESILENT) -f test_1\i2c\oled\CMakeFiles\oled.dir\build.make test_1/i2c/oled/CMakeFiles/oled.dir/build
 .PHONY : oled/fast
 
 #=============================================================================
