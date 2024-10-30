@@ -2086,11 +2086,11 @@ test_1/spi/CMakeFiles/spi.dir/clean:
 
 # All Build rule for target.
 test_1/USER/CMakeFiles/user.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-test_1/USER/CMakeFiles/user.dir/all: test_1/OLED/CMakeFiles/oled.dir/all
-test_1/USER/CMakeFiles/user.dir/all: test_1/spi/CMakeFiles/spi.dir/all
-test_1/USER/CMakeFiles/user.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
 test_1/USER/CMakeFiles/user.dir/all: test_1/i2c/CMakeFiles/i2c.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/led/CMakeFiles/ELF2UF2Build.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/OLED/CMakeFiles/oled.dir/all
 test_1/USER/CMakeFiles/user.dir/all: test_1/MPU6050/CMakeFiles/mpu6050.dir/all
+test_1/USER/CMakeFiles/user.dir/all: test_1/spi/CMakeFiles/spi.dir/all
 	$(MAKE) $(MAKESILENT) -f test_1\USER\CMakeFiles\user.dir\build.make test_1/USER/CMakeFiles/user.dir/depend
 	$(MAKE) $(MAKESILENT) -f test_1\USER\CMakeFiles\user.dir\build.make test_1/USER/CMakeFiles/user.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\ktkuru\Desktop\RP2040_project\build\CMakeFiles --progress-num=91,92,93,94,95,96,97,98,99,100 "Built target user"

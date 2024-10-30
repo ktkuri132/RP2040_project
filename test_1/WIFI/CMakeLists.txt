@@ -1,0 +1,3 @@
+add_library(wifi wifi.c)
+
+target_link_libraries(wifi pico_cyw43_arch_lwip_threadsafe_background)

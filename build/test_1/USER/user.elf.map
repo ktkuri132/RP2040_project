@@ -1439,9 +1439,9 @@ Discarded input sections
  .bss           0x00000000        0x0 ..\spi\libspi.a(spilib.c.obj)
  .text.SPI_ReadData
                 0x00000000       0x18 ..\spi\libspi.a(spilib.c.obj)
- .text          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\cc63e7tR.o
- .data          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\cc63e7tR.o
- .bss           0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\cc63e7tR.o
+ .text          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\cc6kdZ33.o
+ .data          0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\cc6kdZ33.o
+ .bss           0x00000000        0x0 C:\Users\ktkuru\AppData\Local\Temp\cc6kdZ33.o
  .data          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
@@ -1913,7 +1913,7 @@ LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ktkuru\AppData\Local\Temp\cc63e7tR.o
+ .boot2         0x10000000      0x100 C:\Users\ktkuru\AppData\Local\Temp\cc6kdZ33.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3160,7 +3160,7 @@ LOAD ..\spi\libspi.a
 LOAD ..\i2c\libi2c.a
 LOAD ..\OLED\liboled.a
 LOAD ..\MPU6050\libmpu6050.a
-LOAD C:\Users\ktkuru\AppData\Local\Temp\cc63e7tR.o
+LOAD C:\Users\ktkuru\AppData\Local\Temp\cc6kdZ33.o
 LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3261,7 +3261,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000642       0x2c ..\spi\libspi.a(spilib.c.obj)
  .ARM.attributes
-                0x0000066e       0x22 C:\Users\ktkuru\AppData\Local\Temp\cc63e7tR.o
+                0x0000066e       0x22 C:\Users\ktkuru\AppData\Local\Temp\cc6kdZ33.o
  .ARM.attributes
                 0x00000690       0x1e C:/PROGRA~2/ARMGNU~1/133167~1.3RE/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

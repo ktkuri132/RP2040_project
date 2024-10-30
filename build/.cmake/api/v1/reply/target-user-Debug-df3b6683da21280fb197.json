@@ -1353,11 +1353,7 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "oled::@ef20ed0b4cf1755f25d7"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "spi::@e7631cff4102d85ccebb"
+			"id" : "i2c::@941240210799868ff678"
 		},
 		{
 			"backtrace" : 13,
@@ -1365,11 +1361,15 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "i2c::@941240210799868ff678"
+			"id" : "oled::@ef20ed0b4cf1755f25d7"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "mpu6050::@6bc9dd75d5eac1feddd1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spi::@e7631cff4102d85ccebb"
 		}
 	],
 	"id" : "user::@b8e9e41606df08217f5b",
